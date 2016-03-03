@@ -1,0 +1,191 @@
+{
+    "access": {
+        "metadata": {
+            "is_admin": 0,
+            "roles": [
+                "6d840affa1c9401d9e883c9c8496c750"
+            ]
+        },
+        "serviceCatalog": [
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8774/v2/300b2cc45c3846939e589310ae714e46",
+                        "id": "5aed2a95d76c42728b89804900f4ab85",
+                        "internalURL": "http://192.168.0.10:8774/v2/300b2cc45c3846939e589310ae714e46",
+                        "publicURL": "http://192.168.0.10:8774/v2/300b2cc45c3846939e589310ae714e46",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "nova",
+                "type": "compute"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:9696/",
+                        "id": "565b9b96805b473da3846f3ae921cc7b",
+                        "internalURL": "http://192.168.0.10:9696/",
+                        "publicURL": "http://192.168.0.10:9696/",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "neutron",
+                "type": "network"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46",
+                        "id": "e69f470309024e07a88d2b5d2a91ae80",
+                        "internalURL": "http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46",
+                        "publicURL": "http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "cinderv2",
+                "type": "volumev2"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8774/v3",
+                        "id": "1ab0833ab3fc415fbed4a86ce5f287ef",
+                        "internalURL": "http://192.168.0.10:8774/v3",
+                        "publicURL": "http://192.168.0.10:8774/v3",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "novav3",
+                "type": "computev3"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8080",
+                        "id": "5d24098f5cd8421e97557889a76f696e",
+                        "internalURL": "http://192.168.0.10:8080",
+                        "publicURL": "http://192.168.0.10:8080",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "swift_s3",
+                "type": "s3"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:9292",
+                        "id": "0c4af79d15a441e1af5cf4b599c27c0d",
+                        "internalURL": "http://192.168.0.10:9292",
+                        "publicURL": "http://192.168.0.10:9292",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "glance",
+                "type": "image"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8777",
+                        "id": "347c434c850b4535b669402b2cb30ab9",
+                        "internalURL": "http://192.168.0.10:8777",
+                        "publicURL": "http://192.168.0.10:8777",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "ceilometer",
+                "type": "metering"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8776/v1/300b2cc45c3846939e589310ae714e46",
+                        "id": "40ba4b008a994f329059ce3c4ff8d314",
+                        "internalURL": "http://192.168.0.10:8776/v1/300b2cc45c3846939e589310ae714e46",
+                        "publicURL": "http://192.168.0.10:8776/v1/300b2cc45c3846939e589310ae714e46",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "cinder",
+                "type": "volume"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8773/services/Admin",
+                        "id": "5e3ec7cff81944a795203216a7c1c680",
+                        "internalURL": "http://192.168.0.10:8773/services/Cloud",
+                        "publicURL": "http://192.168.0.10:8773/services/Cloud",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "nova_ec2",
+                "type": "ec2"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:8080/",
+                        "id": "13f64463b4894e3e80137abf501fd92e",
+                        "internalURL": "http://192.168.0.10:8080/v1/AUTH_300b2cc45c3846939e589310ae714e46",
+                        "publicURL": "http://192.168.0.10:8080/v1/AUTH_300b2cc45c3846939e589310ae714e46",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "swift",
+                "type": "object-store"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://192.168.0.10:35357/v2.0",
+                        "id": "35eaca083cc44b74bba6fefc275c6668",
+                        "internalURL": "http://192.168.0.10:5000/v2.0",
+                        "publicURL": "http://192.168.0.10:5000/v2.0",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "keystone",
+                "type": "identity"
+            }
+        ],
+        "token": {
+            "audit_ids": [
+                "UI5nMEJ5R5aKnKb3lkcx0A"
+            ],
+            "expires": "2016-03-01T20:36:16Z",
+            "id": "4ea8c9726d5a41ff9deacfc581bb6b4a",
+            "issued_at": "2016-03-01T19:36:16.344197",
+            "tenant": {
+                "description": "admin tenant",
+                "enabled": true,
+                "id": "300b2cc45c3846939e589310ae714e46",
+                "name": "admin"
+            }
+        },
+        "user": {
+            "id": "e9483918caa940a48fe882ba092c7e0b",
+            "name": "admin",
+            "roles": [
+                {
+                    "name": "admin"
+                }
+            ],
+            "roles_links": [],
+            "username": "admin"
+        }
+    }
+}
